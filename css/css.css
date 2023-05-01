@@ -1,0 +1,182 @@
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.logo {
+  width: 130px;
+}
+
+.brand, .team, .navbar-nav .nav-link.active, .navbar-expand-lg .navbar-nav .nav-link:hover {
+  background-color: #055999 !important;
+  color: #fff !important;
+}
+
+.img, .content .col-lg-4 img, .content .our_team img, .content .col-lg-6 img, .team .col-lg-6 img {
+  display: block;
+  width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #055999;
+  background: transparent;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+.box {
+  background: #efefef;
+  border: 1pc solid #efefef;
+}
+.box h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.box p {
+  color: #656565;
+}
+.box i {
+  font-size: 55px;
+  padding: 20px 0;
+}
+.box:hover {
+  background: #fff;
+  border: 1px solid #055999;
+}
+.box .btn {
+  background: #055999;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 14px;
+}
+.box .btn:hover {
+  background: transparent;
+  color: #055999;
+  border: 1px solid #055999;
+}
+
+.team {
+  line-height: 22px;
+}
+.client img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+.client img:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+footer {
+  background: #1B1B1B;
+  color: #ccc;
+}
+footer .col-lg-3 p {
+  line-height: 12px;
+  color: #949494;
+}
+footer li {
+  padding: 5px 0;
+}
+footer a {
+  text-decoration: none;
+  color: #949494;
+}
+footer a:hover {
+  color: #fff;
+}
+
+.copyright {
+  background: #191919;
+  color: #fff;
+  font-size: 12px;
+}
+.copyright i {
+  padding: 0 5px;
+}
+
+.about {
+  background: #2056ae url(../Photo/1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: contain;
+  background-position: right;
+}
+
+.content p {
+  color: #949494;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.content h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 29px;
+}
+.content h3 {
+  font-size: 18px;
+}
+.content .f_item .icon i {
+  padding: 20px;
+  background-color: #055999;
+  font-size: 24px;
+  color: #ffc02a;
+}
+.content .f_item1 .icon i {
+  padding: 20px;
+  border: 1px solid #055999;
+  font-size: 24px;
+  color: #055999;
+}
+.content .bar p {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+.content .filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.content .filter a {
+  text-decoration: none;
+  color: #777777;
+  font-size: 16px;
+  font-weight: 700;
+}
+.content .filter a:hover {
+  color: #055999;
+}
+.content .col-lg-4 {
+  position: relative;
+}
+.content .price h2 {
+  color: #055999;
+}
+.content .price p {
+  color: #222222;
+  padding-bottom: 20px;
+}
+.content .price a {
+  padding: 10px 20px;
+  background-color: #055999;
+}
+
+.form-control {
+  width: 40%;
+  margin: auto;
+}
+
+.btn {
+  text-align: center;
+  background: #055999;
+  color: #fff;
+  border-radius: 0;
+  padding: 8px 15px;
+  border: 1px solid #055999;
+  margin: 0 830px;
+}/*# sourceMappingURL=css.css.map */

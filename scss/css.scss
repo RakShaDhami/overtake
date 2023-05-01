@@ -1,0 +1,246 @@
+$brand: #055999;
+$w: #fff;
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.logo {
+    width: 130px;
+}
+
+.brand {
+    background-color: $brand !important;
+    color: $w !important;
+}
+
+.img {
+    display: block;
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #055999;
+    background: transparent;
+    text-transform: uppercase;
+    padding: 10px 15px;
+
+    &:hover {
+        @extend .brand;
+    }
+}
+
+
+.navbar-nav .nav-link.active {
+    @extend .brand; // @extend lets us share a set of CSS properties from one selector to another (it is use when same properties of css is neede to another part).
+}
+
+.box {
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    p {
+        color: #656565;
+    }
+
+    i {
+        font-size: 55px;
+        padding: 20px 0;
+    }
+
+    background: #efefef;
+    border: 1pc solid #efefef;
+
+    &:hover {
+        background: $w;
+        border: 1px solid $brand;
+    }
+
+    .btn {
+        background: $brand;
+        border-radius: 0px;
+        color: $w;
+        font-size: 14px;
+
+        &:hover {
+            background: transparent;
+            color: $brand;
+            border: 1px solid $brand;
+        }
+    }
+}
+
+.team {
+    @extend .brand;
+    line-height: 22px;
+
+    .col-lg-6 img {
+        @extend .img; //extend from img class
+    }
+}
+
+.client {
+    img {
+        filter: grayscale(100%);
+
+        &:hover {
+            filter: none;
+        }
+    }
+}
+
+footer {
+    background: #1B1B1B;
+    color: #ccc;
+
+    .col-lg-3 p {
+        line-height: 12px;
+        color: #949494;
+    }
+
+    li {
+        padding: 5px 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: #949494;
+
+        &:hover {
+            color: $w;
+        }
+    }
+}
+
+.copyright {
+    background: #191919;
+    color: $w;
+    font-size: 12px;
+
+    i {
+        padding: 0 5px;
+    }
+
+}
+
+//scss of about Us start 
+.about {
+    background: #2056ae url(../Photo/1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    background-position: right;
+}
+
+
+.content {
+    p {
+        color: #949494;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+    h2 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 29px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+
+    .f_item {
+        .icon {
+            i {
+                padding: 20px;
+                background-color: $brand;
+                font-size: 24px;
+                color: #ffc02a;
+            }
+        }
+
+        
+    }
+    .f_item1 {
+        .icon {
+            i {
+                padding: 20px;
+                border: 1px solid $brand;
+                font-size: 24px;
+                color: $brand;
+            }
+        }
+
+        
+    }
+
+    .col-lg-6 img {
+        @extend .img; //extend from img class
+    }
+
+    .bar {
+        p {
+            color: black;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+
+    .our_team img {
+        @extend .img;
+    }
+    .filter{
+        display: flex;
+        gap: 50px;
+       justify-content: center;
+        a {
+            text-decoration: none;
+            color: #777777;
+            font-size: 16px;
+            font-weight: 700;
+    
+            &:hover {
+                color: $brand;
+            }
+        }
+    }
+    .col-lg-4 
+    {
+        position: relative;
+        img{
+            @extend .img;
+        }
+    }
+    .price{
+        h2{
+            color: $brand;
+        }
+        p{
+            color: #222222;
+            padding-bottom: 20px;
+        }
+        a{
+           padding: 10px 20px;
+           background-color: $brand;
+        }
+    }
+
+}
+.form-control{
+width: 40%;
+margin: auto;
+}
+
+.btn{
+    text-align: center;
+    background: $brand;
+    color: #fff;
+    border-radius: 0;
+    padding: 8px 15px;
+    border: 1px solid #055999;
+    margin: 0 830px;
+   }
